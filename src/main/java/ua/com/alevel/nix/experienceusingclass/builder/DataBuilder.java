@@ -58,9 +58,9 @@ public class DataBuilder implements AbstractBuilder {
 
         }
 
-        /*bookService.findAll().forEach(book -> {
+        bookService.findAll().forEach(book -> {
             System.out.println("book = " + book.getBookName());
-        });*/
+        });
 
 }
 
